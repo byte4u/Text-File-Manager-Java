@@ -12,7 +12,8 @@ import java.io.IOException;
 public class CreateFile{
 	public static void main(String[] args){
 	String filePath = "c:\\";
-	//The file can have any extension: .txt, .xls, .html, etc.
+	/*If you want to create a file other than a text file, just change the extension:
+	 .txt, .xls, .html, etc.*/
 	String fileName = "file.txt";
 		try{
 		File file = new File(filePath + fileName);
