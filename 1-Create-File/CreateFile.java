@@ -9,7 +9,7 @@ import java.io.IOException;
  * @date 2021/01/22
  */
 
-public class CreateFile{
+public class Lesson1{
 	public static void main(String[] args){
 	String filePath = "c:\\";
 	/*If you want to create a file other than a text file, just change the extension:
