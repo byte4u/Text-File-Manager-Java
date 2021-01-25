@@ -29,7 +29,7 @@ import java.io.IOException;
  * @version 1
  * @date 2021/01/25
  */
-public class InsertData {
+public class InsertData { 
 
     public static void main(String[] args) {
         try {
