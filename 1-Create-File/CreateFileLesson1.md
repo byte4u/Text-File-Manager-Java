@@ -1,4 +1,4 @@
-# How to create text files in java - Lesson 1
+# How to create a text file using java - Lesson 1
 ###### BYTE4U - IT Solutions
 
 ## Summary
@@ -13,6 +13,7 @@
 ## Prerequisites
 
 - Logic programming
+  - Java Programming
   - Variables
   - Conditional structure
   - Try catch
@@ -33,7 +34,7 @@ import java.io.IOException;
  * @date 2021/01/22
  */
 
-public class CreateFile{
+public class CreateFileLesson1{
 	public static void main(String[] args){
 	String filePath = "c:\\";
 	/*If you want to create a file other than a text file, just change the extension:
