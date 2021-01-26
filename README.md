@@ -25,4 +25,6 @@ Each folder will have the .java files to download.
 The .md files will contain the instruction for the lessons. 
 In each folder you will have more than one version of the same program.
 
-# Start now (https://github.com/samadhi999/Text-File-Manager-Java)
+# Start now 
+- 1- Create file text (https://github.com/samadhi999/Text-File-Manager-Java/tree/main/1-Create-File)
+- 2- Insert data (https://github.com/samadhi999/Text-File-Manager-Java/tree/main/2-Insert-Data)
