@@ -26,7 +26,7 @@
 
 ## File successfuly created
 
-![File successfuly created](/1-Create-File/File-successfuly-created.png)
+![File successfuly created](/1-Create-File/File-successfuly-created.png) 
 
 ## File successfuly created
 
