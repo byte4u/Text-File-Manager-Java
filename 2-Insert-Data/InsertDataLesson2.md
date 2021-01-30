@@ -13,9 +13,9 @@
 
 ## Prerequisites
 
-- Have done the previous class (https://github.com/samadhi999/Text-File-Manager-Java/tree/main/1-Create-File)
-
-(https://github.com/samadhi999/Text-File-Manager-Java/blob/main/2-Insert-Data/InsertDataLesson1.java)
+- Have done the previous class 
+  - (https://github.com/samadhi999/Text-File-Manager-Java/tree/main/1-Create-File)
+  - (https://github.com/samadhi999/Text-File-Manager-Java/blob/main/2-Insert-Data/InsertDataLesson1.java)
 
 # Note:
  The fileWriter class takes two parameters. The first parameter is of type 
