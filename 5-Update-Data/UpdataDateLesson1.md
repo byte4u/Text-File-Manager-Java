@@ -96,8 +96,7 @@ public class UpdateDataLesson1 {
                 }
             }
             list[arrayPosition] = update;
-            Arrays.toString(list);
-
+            
             try (FileWriter fileWriter = new FileWriter(filePath + fileName)) {
                 for (int j = 0; j < arraySize; j++) {
                     String insertData = list[j];
