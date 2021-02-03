@@ -13,10 +13,10 @@
 ## Prerequisites
 
 - Logic programming
-  - Java Programming
-  - Variables
-  - Conditional structure
-  - Try catch
+- Java Programming
+- Variables
+- Conditional structure
+- Try catch
 
 ## Source code
 
