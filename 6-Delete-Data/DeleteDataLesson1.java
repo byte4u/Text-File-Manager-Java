@@ -98,7 +98,7 @@ public class DeleteDataLesson1 {
                         Boolean leftDone = y + 1 == elementsLeftDelete;
                         if (leftDone == true) {
                             for (int z = 0; z < elementsRightDelete; z++) {
-								String insertData2 = list[deleteThisPosition + 1 + z];
+				String insertData2 = list[deleteThisPosition + 1 + z];
                                 fileWriter3.write(insertData2 + "\r\n");
                             }
                             break;
