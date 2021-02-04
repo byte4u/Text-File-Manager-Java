@@ -60,22 +60,12 @@ public class DeleteDataLesson1 {
                 count = count + 1;
             }
             //------------------------------------------
-            int leftArraySize = deleteThisPosition - 0;
-            int rightArraySize = (list.length) - (deleteThisPosition + 1);
-            //Left array
-            String[] leftArray = new String[leftArraySize];
-            for (int i = 0; i < leftArraySize; i++) {
-                leftArray[i] = list[i];
-            }
-            //Right array
-            String[] rightArray = new String[rightArraySize];
-            for (int j = 0; j < rightArraySize; j++) {
-                rightArray[j] = list[deleteThisPosition + 1 + j];
-            }
-            if (leftArraySize == 0) {
+            int elementsLeftDelete = deleteThisPosition - 0;
+            int elementsRightDelete = (list.length) - (deleteThisPosition + 1);
+            if (elementsLeftDelete == 0) {
                 try (FileWriter fileWriter1 = new FileWriter(filePath + fileName)) {
-                    for (int k = 0; k < rightArraySize; k++) {
-                        String insertData = rightArray[k];
+                    for (int k = 0; k < elementsRightDelete; k++) {
+                        String insertData = list[deleteThisPosition + 1 + k];
                         fileWriter1.write(insertData + "\r\n");
                     }
                     System.out.println("+-----------------------------------------------------------+");
@@ -85,10 +75,10 @@ public class DeleteDataLesson1 {
                     System.out.println("An Errorr ocurred!");
                     e.getMessage();
                 }
-            } else if (rightArraySize == 0) {
+            } else if (elementsRightDelete == 0) {
                 try (FileWriter fileWriter2 = new FileWriter(filePath + fileName)) {
-                    for (int x = 0; x < leftArraySize; x++) {
-                        String insertData = leftArray[x];
+                    for (int x = 0; x < elementsLeftDelete; x++) {
+                        String insertData = list[x];
                         fileWriter2.write(insertData + "\r\n");
                     }
                     System.out.println("+-----------------------------------------------------------+");
@@ -102,13 +92,13 @@ public class DeleteDataLesson1 {
             } else {
 
                 try (FileWriter fileWriter3 = new FileWriter(filePath + fileName)) {
-                    for (int y = 0; y < leftArraySize; y++) {
-                        String insertData1 = leftArray[y];
+                    for (int y = 0; y < elementsLeftDelete; y++) {
+                        String insertData1 = list[y];
                         fileWriter3.write(insertData1 + "\r\n");
-                        Boolean leftDone = y + 1 == leftArraySize;
+                        Boolean leftDone = y + 1 == elementsLeftDelete;
                         if (leftDone == true) {
-                            for (int z = 0; z < rightArraySize; z++) {
-                                String insertData2 = rightArray[z];
+                            for (int z = 0; z < elementsRightDelete; z++) {
+								String insertData2 = list[deleteThisPosition + 1 + z];
                                 fileWriter3.write(insertData2 + "\r\n");
                             }
                             break;
