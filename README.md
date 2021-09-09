@@ -34,4 +34,4 @@ In each folder you will have more than one version of the same program.
 - 3- Text reader (https://github.com/samadhi999/Text-File-Manager-Java/tree/main/3-Text-Reader) 
 - 4- Search data (https://github.com/samadhi999/Text-File-Manager-Java/tree/main/4-Search-Data)
 - 5- Update data (https://github.com/samadhi999/Text-File-Manager-Java/tree/main/5-Update-Data)
-- 6- Delete data (https://github.com/samadhi999/Text-File-Manager-Java/tree/main/6-Delete-Data)
+- 6- Delete data (https://github.com/samadhi999/Text-File-Manager-Java/tree/main/6-Delete-Data) 
